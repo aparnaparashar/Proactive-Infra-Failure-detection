@@ -15,13 +15,6 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-## 🧠 Model: Isolation Forest
-
-- **Type**: Unsupervised anomaly detection
-- **Library**: `scikit-learn`
-- **Input**: Normalized system metrics
-- **Output**: Anomaly score and binary anomaly prediction
-
 ---
 
 ## 🎯 Objectives
@@ -71,4 +64,13 @@ joblib.dump(model, 'isolation_forest_model.pkl')
 
 # Load model
 model = joblib.load('isolation_forest_model.pkl')
+
+# 1. Clone the repository
+git clone https://github.com/yourusername/infrastructure-failure-detection.git
+
+# 2. Navigate to project directory
+cd infrastructure-failure-detection
+
+# 3. Open the notebook or run script
+jupyter notebook anomaly_detection.ipynb
 
