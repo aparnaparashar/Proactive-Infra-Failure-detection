@@ -74,10 +74,7 @@ cd infrastructure-failure-detection
 # 3. Open the notebook or run script
 jupyter notebook anomaly_detection.ipynb
 
----
 
-## To Install the Dependecies
-pip install -r requirements.txt
 
 
 
