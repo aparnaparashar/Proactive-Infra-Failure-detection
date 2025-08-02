@@ -38,12 +38,6 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-##  Visualizations
-
-- **Anomaly Time Series Plot**: Shows when anomalies occurred across the monitoring window  
-- **Confusion Matrix Heatmap**: Visual representation of model performance  
-- **Response Time Distribution**: Compares detection delay between model and manual detection
-
 ---
 
 ##  Tech Stack
