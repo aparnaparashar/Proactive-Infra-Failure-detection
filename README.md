@@ -4,7 +4,7 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Source**: `predictive_maintenance_dataset.csv` (structured performance log data)
 - **Features include**:  
@@ -17,15 +17,15 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
-- ✅ Improve failure detection **recall** compared to baseline rules
-- ✅ Reduce average **incident response time**
-- ✅ Visualize anomaly trends over time for proactive infrastructure decisions
+-  Improve failure detection **recall** compared to baseline rules
+-  Reduce average **incident response time**
+-  Visualize anomaly trends over time for proactive infrastructure decisions
 
 ---
 
-## 📈 Performance Summary
+##  Performance Summary
 
 | Metric                | Isolation Forest | Baseline Rules |
 |-----------------------|------------------|----------------|
@@ -38,7 +38,7 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 - **Anomaly Time Series Plot**: Shows when anomalies occurred across the monitoring window  
 - **Confusion Matrix Heatmap**: Visual representation of model performance  
@@ -46,7 +46,7 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.12**
 - **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `sklearn`, `joblib`
@@ -54,7 +54,7 @@ This project implements an **unsupervised anomaly detection model** using the **
 
 ---
 
-## 💾 Saving & Loading Model
+##  Saving & Loading Model
 
 ```python
 import joblib
@@ -73,4 +73,11 @@ cd infrastructure-failure-detection
 
 # 3. Open the notebook or run script
 jupyter notebook anomaly_detection.ipynb
+
+## To Install the Dependecies
+pip install -r requirements.txt
+
+
+
+
 
